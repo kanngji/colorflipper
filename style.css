@@ -1,0 +1,64 @@
+body{
+    background-color: #eee;
+   
+}
+.nav-center{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-center h4{
+    font-size: 36px;
+    
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+a:active{
+    color:black;
+}
+
+.nav-links li{
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    display: block;
+    
+}
+.color {
+    color:white;
+}
+
+.btn{
+    display: block;
+    width: 200px;
+    height: 100px;
+    color:black;
+    border-radius: 3px;
+}
